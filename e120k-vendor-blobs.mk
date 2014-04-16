@@ -23,6 +23,8 @@ PRODUCT_COPY_FILES += \
 # Proprietary files
 PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/lib/hw/nfc.qcom.so:system/lib/hw/nfc.qcom.so \
+	vendor/samsung/e120k/proprietary/lib/hw/camera.goldfish.jpeg.so:system/lib/hw/camera.goldfish.jpeg.so \
+	vendor/samsung/e120k/proprietary/lib/hw/camera.goldfish.so:system/lib/hw/camera.goldfish.so \
 	vendor/samsung/e120k/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
@@ -109,6 +111,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
 	vendor/samsung/e120k/proprietary/bin/thermald:system/bin/thermald \
 	vendor/samsung/e120k/proprietary/etc/thermald.conf:system/etc/thermald.conf \
+	vendor/samsung/e120k/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
 	vendor/samsung/e120k/proprietary/lib/libdsm.so:system/lib/libdsm.so \
 	vendor/samsung/e120k/proprietary/lib/modules/exfat_core.ko:system/lib/modules/exfat_core.ko \
 	vendor/samsung/e120k/proprietary/lib/modules/exfat_fs.ko:system/lib/modules/exfat_fs.ko \
