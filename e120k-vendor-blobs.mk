@@ -113,6 +113,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/etc/thermald.conf:system/etc/thermald.conf \
 	vendor/samsung/e120k/proprietary/etc/media_codecs.xml:system/etc/media_codecs.xml \
 	vendor/samsung/e120k/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
+	vendor/samsung/e120k/proprietary/etc/test_radio_version.sh:system/etc/test_radio_version.sh \
 	vendor/samsung/e120k/proprietary/lib/libdsm.so:system/lib/libdsm.so \
 	vendor/samsung/e120k/proprietary/lib/modules/exfat_core.ko:system/lib/modules/exfat_core.ko \
 	vendor/samsung/e120k/proprietary/lib/modules/exfat_fs.ko:system/lib/modules/exfat_fs.ko \
