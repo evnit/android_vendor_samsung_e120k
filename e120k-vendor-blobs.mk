@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/lib/hw/camera.goldfish.jpeg.so:system/lib/hw/camera.goldfish.jpeg.so \
 	vendor/samsung/e120k/proprietary/lib/hw/camera.goldfish.so:system/lib/hw/camera.goldfish.so \
 	vendor/samsung/e120k/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+	vendor/samsung/e120k/proprietary/etc/init.d/91fixoverlays:system/etc/init.d/91fixoverlays \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
 	vendor/samsung/e120k/proprietary/bin/mpdecision:system/bin/mpdecision \
