@@ -119,4 +119,5 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/lib/modules/exfat_core.ko:system/lib/modules/exfat_core.ko \
 	vendor/samsung/e120k/proprietary/lib/modules/exfat_fs.ko:system/lib/modules/exfat_fs.ko \
 	vendor/samsung/e120k/proprietary/lib/libthermal_mitigation_fusion.so:system/lib/libthermal_mitigation_fusion.so \
-	vendor/samsung/e120k/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so
+	vendor/samsung/e120k/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so \
+	vendor/samsung/e120k/proprietary/app/com.sonny.lpi.googlenow.apk:system/app/com.sonny.lpi.googlenow.apk
