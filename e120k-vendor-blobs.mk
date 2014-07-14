@@ -28,7 +28,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/samsung/e120k/proprietary/etc/init.d/91fixoverlays:system/etc/init.d/91fixoverlays \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
+	vendor/samsung/e120k/proprietary/etc/wifi/nvram_net.txt_semcove:system/etc/wifi/nvram_net.txt_semcove \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
+	vendor/samsung/e120k/proprietary/etc/wifi/nvram_mfg.txt_semcove:system/etc/wifi/nvram_mfg.txt_semcove \
 	vendor/samsung/e120k/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/samsung/e120k/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/e120k/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
@@ -94,12 +96,18 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	vendor/samsung/e120k/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_apsta_b2.bin:system/etc/wifi/bcmdhd_apsta_b2.bin \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+	vendor/samsung/e120k/proprietary/etc/wifi/nvram_net.txt_b2:system/etc/wifi/nvram_net.txt_b2 \
 	vendor/samsung/e120k/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
+	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_p2p_b2.bin:system/etc/wifi/bcmdhd_p2p_b2.bin \
 	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_sta_b2.bin:system/etc/wifi/bcmdhd_sta_b2.bin \
 	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
+	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_mfg_b2.bin:system/etc/wifi/bcmdhd_mfg_b2.bin \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+	vendor/samsung/e120k/proprietary/etc/wifi/nvram_mfg.txt_b2:system/etc/wifi/nvram_mfg.txt_b2 \
 	vendor/samsung/e120k/proprietary/etc/firmware/dsps_fluid.b00:system/etc/firmware/dsps_fluid.b00 \
 	vendor/samsung/e120k/proprietary/etc/firmware/dsps_fluid.b01:system/etc/firmware/dsps_fluid.b01 \
 	vendor/samsung/e120k/proprietary/etc/firmware/dsps_fluid.b02:system/etc/firmware/dsps_fluid.b02 \
