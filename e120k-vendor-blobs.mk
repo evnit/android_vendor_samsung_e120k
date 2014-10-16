@@ -83,7 +83,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
 	vendor/samsung/e120k/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
 	vendor/samsung/e120k/proprietary/lib/librpc.so:system/lib/librpc.so \
-	vendor/samsung/e120k/proprietary/lib/hw/sensors.MSM8660_SURF.so:system/lib/hw/sensors.MSM8660_SURF.so \
+	vendor/samsung/e120k/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
 	vendor/samsung/e120k/proprietary/lib/libakm.so:system/lib/libakm.so \
 	vendor/samsung/e120k/proprietary/lib/hw/camera.vendor.msm8660.so:system/lib/hw/camera.vendor.msm8660.so \
 	vendor/samsung/e120k/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
