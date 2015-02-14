@@ -23,14 +23,9 @@ PRODUCT_COPY_FILES += \
 # Proprietary files
 PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/lib/hw/nfc.qcom.so:system/lib/hw/nfc.qcom.so \
-	vendor/samsung/e120k/proprietary/lib/hw/camera.goldfish.jpeg.so:system/lib/hw/camera.goldfish.jpeg.so \
-	vendor/samsung/e120k/proprietary/lib/hw/camera.goldfish.so:system/lib/hw/camera.goldfish.so \
 	vendor/samsung/e120k/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-	vendor/samsung/e120k/proprietary/etc/init.d/91fixoverlays:system/etc/init.d/91fixoverlays \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
-	vendor/samsung/e120k/proprietary/etc/wifi/nvram_net.txt_semcove:system/etc/wifi/nvram_net.txt_semcove \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
-	vendor/samsung/e120k/proprietary/etc/wifi/nvram_mfg.txt_semcove:system/etc/wifi/nvram_mfg.txt_semcove \
 	vendor/samsung/e120k/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/samsung/e120k/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/e120k/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
@@ -83,7 +78,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
 	vendor/samsung/e120k/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
 	vendor/samsung/e120k/proprietary/lib/librpc.so:system/lib/librpc.so \
-	vendor/samsung/e120k/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+	vendor/samsung/e120k/proprietary/lib/hw/sensors.MSM8660_SURF.so:system/lib/hw/sensors.MSM8660_SURF.so \
 	vendor/samsung/e120k/proprietary/lib/libakm.so:system/lib/libakm.so \
 	vendor/samsung/e120k/proprietary/lib/hw/camera.vendor.msm8660.so:system/lib/hw/camera.vendor.msm8660.so \
 	vendor/samsung/e120k/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -96,18 +91,12 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	vendor/samsung/e120k/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_apsta_b2.bin:system/etc/wifi/bcmdhd_apsta_b2.bin \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-	vendor/samsung/e120k/proprietary/etc/wifi/nvram_net.txt_b2:system/etc/wifi/nvram_net.txt_b2 \
 	vendor/samsung/e120k/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
-	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_p2p_b2.bin:system/etc/wifi/bcmdhd_p2p_b2.bin \
 	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_sta_b2.bin:system/etc/wifi/bcmdhd_sta_b2.bin \
 	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
-	vendor/samsung/e120k/proprietary/etc/wifi/bcmdhd_mfg_b2.bin:system/etc/wifi/bcmdhd_mfg_b2.bin \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-	vendor/samsung/e120k/proprietary/etc/wifi/nvram_mfg.txt_b2:system/etc/wifi/nvram_mfg.txt_b2 \
 	vendor/samsung/e120k/proprietary/etc/firmware/dsps_fluid.b00:system/etc/firmware/dsps_fluid.b00 \
 	vendor/samsung/e120k/proprietary/etc/firmware/dsps_fluid.b01:system/etc/firmware/dsps_fluid.b01 \
 	vendor/samsung/e120k/proprietary/etc/firmware/dsps_fluid.b02:system/etc/firmware/dsps_fluid.b02 \
@@ -120,11 +109,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
 	vendor/samsung/e120k/proprietary/bin/thermald:system/bin/thermald \
 	vendor/samsung/e120k/proprietary/etc/thermald.conf:system/etc/thermald.conf \
-	vendor/samsung/e120k/proprietary/etc/media_codecs.xml:system/etc/media_codecs.xml \
-	vendor/samsung/e120k/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
-	vendor/samsung/e120k/proprietary/etc/test_radio_version.sh:system/etc/test_radio_version.sh \
 	vendor/samsung/e120k/proprietary/lib/libdsm.so:system/lib/libdsm.so \
-	vendor/samsung/e120k/proprietary/lib/modules/exfat_core.ko:system/lib/modules/exfat_core.ko \
-	vendor/samsung/e120k/proprietary/lib/modules/exfat_fs.ko:system/lib/modules/exfat_fs.ko \
 	vendor/samsung/e120k/proprietary/lib/libthermal_mitigation_fusion.so:system/lib/libthermal_mitigation_fusion.so \
 	vendor/samsung/e120k/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so
