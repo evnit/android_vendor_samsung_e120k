@@ -26,6 +26,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
 	vendor/samsung/e120k/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
+	vendor/samsung/e120k/proprietary/etc/init.d/91fixoverlays:system/etc/init.d/91fixoverlays \
+	vendor/samsung/e120k/proprietary/etc/media_codecs.xml:system/etc/media_codecs.xml \
+	vendor/samsung/e120k/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
 	vendor/samsung/e120k/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/samsung/e120k/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/e120k/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
